@@ -24,29 +24,29 @@ The tweets related to the candidates were collected from Twitter and they were l
 1. Candidates names
    A quick count of the candidates names mentioned in each tweet shows that both candidates are balancely mentioned for each sentiment.
 
-| ![Candidates names distribution at each sentiment](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/images/president_names_exploration.PNG?raw=true) |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                              Candidates names distribution at each sentiment                                                               |
+| ![Candidates names distribution at each sentiment](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/blob/main/images/president_names_exploration.PNG?raw=true) |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                   Candidates names distribution at each sentiment                                                                    |
 
 2. Hashtags
 
 Similarly, counting the hashtags with respect to the sentiment of the texts shows that hashtags in the texts are inconclusive to a specific sentiment.
 
-| ![Top 5 hashtags for each sentiment](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/images/hasthags_exploration.PNG?raw=true) |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                           Top 5 hashtags for each sentiment                                                           |
+| ![Top 5 hashtags for each sentiment](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/blob/main/images/hasthags_exploration.PNG?raw=true) |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                Top 5 hashtags for each sentiment                                                                |
 
 3. WordCloud
 
 Using the WordCloud to see the most frequent words in with respect to the candidate and its sentiment.
 
-| ![Wordcloud for Jokowi with positive sentiment](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/images/wordcloud_jokowi_positif.png?raw=true) |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                             Wordcloud for Jokowi with positive sentiment                                                             |
+| ![Wordcloud for Jokowi with positive sentiment](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/blob/main/images/wordcloud_jokowi_positif.png?raw=true) |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                  Wordcloud for Jokowi with positive sentiment                                                                  |
 
-| ![Wordcloud for Prabowo with positive sentiment](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/images/wordcloud_prabowo_positif.png?raw=true) |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                             Wordcloud for Prabowo with positive sentiment                                                              |
+| ![Wordcloud for Prabowo with positive sentiment](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/blob/main/images/wordcloud_prabowo_positif.png?raw=true) |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                  Wordcloud for Prabowo with positive sentiment                                                                   |
 
 Findings:
 
@@ -56,9 +56,9 @@ Findings:
 
 ## Text Preprocessing
 
-| ![Text cleaning workflow](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/images/text_cleaning.PNG) |
-| :------------------------------------------------------------------------------------------------------------------------: |
-|                                                   Text cleaning workflow                                                   |
+| ![Text cleaning workflow](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/blob/main/images/text_cleaning.PNG) |
+| :----------------------------------------------------------------------------------------------------------------------------------: |
+|                                                        Text cleaning workflow                                                        |
 
 The steps in text cleaning:
 
@@ -95,9 +95,9 @@ Findings:
 
 1. All experiments suffer from the overfitting, indicated by good training performance, where validation performance does not improve
 
-| ![Learning Curve for LSTM + Embedding Layer](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/images/lstm_embedding_learning_curve.png?raw=true) |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                               Learning Curve for LSTM + Embedding Layer                                                                |
+| ![Learning Curve for LSTM + Embedding Layer](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/blob/main/images/lstm_embedding_learning_curve.png?raw=true) |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                    Learning Curve for LSTM + Embedding Layer                                                                     |
 
 3. In general, using Random Forest is better than using LSTM for this use case
 
@@ -109,7 +109,7 @@ The pre-trained BERT model's validation accuracy is 63.63%.
 This shows that the performance of the best model created, i.e. the Random Forest with Word2Vec, is comparable to the pre-trained BERT model for this dataset.
 
 On top of the validation accuracy value, the confusion matrix on the test set by the BERT and Random Forest + Word2Vec are similar, where the models are able to predict the negative sentiment better than the neutral and positive class.
-| ![Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right)](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/images/cm_bert_rfw2v.PNG) |
+| ![Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right)](https://github.com/RijalA/Indonesia-AI---Project-1-Sentiment-Analysis-/blob/main/images/cm_bert_rfw2v.PNG) |
 |:--:|
 | Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right) |
 
